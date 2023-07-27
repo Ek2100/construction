@@ -7,7 +7,7 @@ html, body {
     background: rgba(0, 0, 0, 0.60) url("./images/gojo-satoru.gif") center;
     background-size: cover;
     background-blend-mode: darken;
-    filter: blur(20px);
+    filter: blur(15px);
 
     height: 100%; 
 }
