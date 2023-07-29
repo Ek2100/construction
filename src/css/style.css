@@ -1,15 +1,29 @@
 html, body {
     height: 100%;
     margin: 0%;
+    transition: 1s;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100;
+    }
 }
 
 .gif-container {
-    background: rgba(0, 0, 0, 0.60) url("./images/gojo-satoru.gif") center;
+    background: rgba(0, 0, 0, 0.75) url("./images/gojo-satoru.gif") center;
     background-size: cover;
     background-blend-mode: darken;
-    filter: blur(15px);
-
     height: 100%; 
+    filter: sepia(100%);
 }
 
 p1 {
